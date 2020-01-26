@@ -1,5 +1,0 @@
-<RCC>
-    <qresource>
-        <file alias="input.txt">input.txt</file>
-    </qresource>
-</RCC>
