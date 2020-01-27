@@ -12,7 +12,7 @@ Nit::Nit(MouseList generation, MouseList nova_generacija, QColor islandColor)
 }
 
 void Nit::run(){
-    if(iteracija==1000){
+    if(iteracija==50000){
         emit zavrsioSam();
         return;
     }
