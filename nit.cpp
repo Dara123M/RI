@@ -120,7 +120,7 @@ void Nit::mutacija()
 qreal Nit::generisiRandom(double lower, double upper)
 {
 
-    qreal p=lower+(upper-lower)*(qrand()%1000)/10000.0;
+    qreal p=lower+(upper-lower)*(qrand()%1000/1000.0);
     if(p<=lower)
         p=lower;
     else if(p>=upper)
