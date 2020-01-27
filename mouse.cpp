@@ -292,7 +292,7 @@ void Mouse::initialize(QString input){
         fajl>>min>>max;
         genotype.lower.push_back(min);
         genotype.upper.push_back(max);
-        qreal p=min+(max-min)*(qrand()%1000)/10000.0;
+        qreal p=min+(max-min)*(qrand()%1000/1000.0);
         if(p<=min)
             p=min;
         else if(p>=max)
